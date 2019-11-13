@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.5)  13 NOV 2019 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.13)  13 NOV 2019 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1167,6 +1167,66 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textwidth' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@centercr' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightskip' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leftskip' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 34.
+
 (./presentacion_risaro.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
@@ -1175,20 +1235,20 @@ LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `presentacion_risaro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1256,7 +1316,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1266,66 +1326,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count188
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
 
 (./presentacion_risaro.out) (./presentacion_risaro.out)
 \@outlinefile=\write5
 \openout5 = `presentacion_risaro.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 34.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 48.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 34.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 48.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 34.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 34.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 34.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 34.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 34.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 34.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 34.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 34.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 48.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 34.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 48.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 34.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 34.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 34.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 34.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 34.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 34.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 48.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 48.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
-4.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-34.
+48.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 34.
+ut line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1351,28 +1411,28 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 34.
+LaTeX Info: Redefining \selectfont on input line 48.
 \c@lstlisting=\count189
 
 (./presentacion_risaro.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 37.
+line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1388,138 +1448,143 @@ LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 ) [2
 
-]
-</home/daniu/Documentos/charla_GIS/figuras/intro.png, id=102, 256.41396pt x 229
-.38498pt>
-File: /home/daniu/Documentos/charla_GIS/figuras/intro.png Graphic file (type pn
-g)
-<use /home/daniu/Documentos/charla_GIS/figuras/intro.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/intro.png  u
-sed on input line 53.
-(pdftex.def)             Requested size: 217.95288pt x 194.97813pt.
+] [3
 
-Overfull \vbox (20.40753pt too high) detected at line 53
+]
+</home/daniu/Documents/charla_GIS/figuras/intro.png, id=132, 256.41396pt x 229.
+38498pt>
+File: /home/daniu/Documents/charla_GIS/figuras/intro.png Graphic file (type png
+)
+<use /home/daniu/Documents/charla_GIS/figuras/intro.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/intro.png  us
+ed on input line 67.
+(pdftex.def)             Requested size: 212.82352pt x 190.38947pt.
+
+Overfull \vbox (15.81886pt too high) detected at line 67
  []
 
-[3
+[4
 
- </home/daniu/Documentos/charla_GIS/figuras/intro.png>] [4
-
-] [5
+ </home/daniu/Documents/charla_GIS/figuras/intro.png>] [5
 
 ] [6
 
-]
-</home/daniu/Documentos/charla_GIS/figuras/global_ocean_color_sensors.pdf, id=2
-19, 248.3403pt x 186.8857pt>
-File: /home/daniu/Documentos/charla_GIS/figuras/global_ocean_color_sensors.pdf 
-Graphic file (type pdf)
-<use /home/daniu/Documentos/charla_GIS/figuras/global_ocean_color_sensors.pdf>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/global_ocean
-_color_sensors.pdf  used on input line 77.
-(pdftex.def)             Requested size: 223.50418pt x 168.19557pt.
- [7
+] [7
 
- </home/daniu/Documentos/charla_GIS/figuras/global_ocean_color_sensors.pdf>]
-File: /home/daniu/Documentos/charla_GIS/figuras/global_ocean_color_sensors.pdf 
-Graphic file (type pdf)
-<use /home/daniu/Documentos/charla_GIS/figuras/global_ocean_color_sensors.pdf>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/global_ocean
-_color_sensors.pdf  used on input line 77.
-(pdftex.def)             Requested size: 223.50418pt x 168.19557pt.
- [8
+] [8
 
 ]
-File: /home/daniu/Documentos/charla_GIS/figuras/global_ocean_color_sensors.pdf 
-Graphic file (type pdf)
-<use /home/daniu/Documentos/charla_GIS/figuras/global_ocean_color_sensors.pdf>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/global_ocean
-_color_sensors.pdf  used on input line 77.
+</home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf, id=27
+8, 248.3403pt x 186.8857pt>
+File: /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf G
+raphic file (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/global_ocean_
+color_sensors.pdf  used on input line 89.
 (pdftex.def)             Requested size: 223.50418pt x 168.19557pt.
 
 [9
 
-]
-File: /home/daniu/Documentos/charla_GIS/figuras/global_ocean_color_sensors.pdf 
-Graphic file (type pdf)
-<use /home/daniu/Documentos/charla_GIS/figuras/global_ocean_color_sensors.pdf>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/global_ocean
-_color_sensors.pdf  used on input line 77.
+ </home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf>]
+File: /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf G
+raphic file (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/global_ocean_
+color_sensors.pdf  used on input line 89.
 (pdftex.def)             Requested size: 223.50418pt x 168.19557pt.
- [10
 
-] [11
+[10
 
-] [12
+]
+File: /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf G
+raphic file (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/global_ocean_
+color_sensors.pdf  used on input line 89.
+(pdftex.def)             Requested size: 223.50418pt x 168.19557pt.
+ [11
+
+]
+File: /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf G
+raphic file (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/global_ocean_
+color_sensors.pdf  used on input line 89.
+(pdftex.def)             Requested size: 223.50418pt x 168.19557pt.
+ [12
 
 ] [13
 
-]
-</home/daniu/Documentos/charla_GIS/figuras/L3browser.png, id=462, 1269.74374pt 
-x 620.3175pt>
-File: /home/daniu/Documentos/charla_GIS/figuras/L3browser.png Graphic file (typ
-e png)
-<use /home/daniu/Documentos/charla_GIS/figuras/L3browser.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/L3browser.pn
-g  used on input line 107.
-(pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
- [14
+] [14
 
- </home/daniu/Documentos/charla_GIS/figuras/L3browser.png>]
-File: /home/daniu/Documentos/charla_GIS/figuras/L3browser.png Graphic file (typ
-e png)
-<use /home/daniu/Documentos/charla_GIS/figuras/L3browser.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/L3browser.pn
-g  used on input line 107.
-(pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
- [15
+] [15
 
 ]
-File: /home/daniu/Documentos/charla_GIS/figuras/L3browser.png Graphic file (typ
-e png)
-<use /home/daniu/Documentos/charla_GIS/figuras/L3browser.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/L3browser.pn
-g  used on input line 107.
+</home/daniu/Documents/charla_GIS/figuras/L3browser.png, id=520, 1269.74374pt x
+ 620.3175pt>
+File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
+ png)
+<use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
+  used on input line 119.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [16
 
-]
-File: /home/daniu/Documentos/charla_GIS/figuras/L3browser.png Graphic file (typ
-e png)
-<use /home/daniu/Documentos/charla_GIS/figuras/L3browser.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/L3browser.pn
-g  used on input line 107.
+ </home/daniu/Documents/charla_GIS/figuras/L3browser.png>]
+File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
+ png)
+<use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
+  used on input line 119.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [17
 
 ]
-File: /home/daniu/Documentos/charla_GIS/figuras/L3browser.png Graphic file (typ
-e png)
-<use /home/daniu/Documentos/charla_GIS/figuras/L3browser.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/L3browser.pn
-g  used on input line 107.
+File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
+ png)
+<use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
+  used on input line 119.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [18
 
 ]
-File: /home/daniu/Documentos/charla_GIS/figuras/L3browser.png Graphic file (typ
-e png)
-<use /home/daniu/Documentos/charla_GIS/figuras/L3browser.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/L3browser.pn
-g  used on input line 107.
+File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
+ png)
+<use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
+  used on input line 119.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [19
 
 ]
-File: /home/daniu/Documentos/charla_GIS/figuras/L3browser.png Graphic file (typ
-e png)
-<use /home/daniu/Documentos/charla_GIS/figuras/L3browser.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/L3browser.pn
-g  used on input line 107.
+File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
+ png)
+<use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
+  used on input line 119.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [20
 
 ]
+File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
+ png)
+<use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
+  used on input line 119.
+(pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
+ [21
+
+]
+File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
+ png)
+<use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
+  used on input line 119.
+(pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
+ [22
+
+]
 \openout4 = `presentacion_risaro.vrb'.
 
  (./presentacion_risaro.vrb
@@ -1528,89 +1593,99 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)) [21
-
-]
-(./presentacion_risaro.vrb) [22
-
-]
-\openout4 = `presentacion_risaro.vrb'.
-
- (./presentacion_risaro.vrb) [23
+)) [23
 
 ]
 (./presentacion_risaro.vrb) [24
 
+] (./presentacion_risaro.vrb) [25
+
+]
+(./presentacion_risaro.vrb) [26
+
 ]
 \openout4 = `presentacion_risaro.vrb'.
 
- (./presentacion_risaro.vrb
-</home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png, id=766, 1050.926
-25pt x 871.255pt>
-File: /home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png Graphic file
- (type png)
-<use /home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/ncdump-conso
-le.png  used on input line 15.
-(pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
-)
-Overfull \vbox (13.50648pt too high) detected at line 176
- []
+ (./presentacion_risaro.vrb) [27
 
-[25
+]
+(./presentacion_risaro.vrb) [28
 
- </home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png>]
+] (./presentacion_risaro.vrb) [29
+
+]
+\openout4 = `presentacion_risaro.vrb'.
+
+
 (./presentacion_risaro.vrb
-File: /home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png Graphic file
- (type png)
-<use /home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/ncdump-conso
-le.png  used on input line 15.
+</home/daniu/Documents/charla_GIS/figuras/ncdump-console.png, id=909, 1050.9262
+5pt x 871.255pt>
+File: /home/daniu/Documents/charla_GIS/figuras/ncdump-console.png Graphic file 
+(type png)
+<use /home/daniu/Documents/charla_GIS/figuras/ncdump-console.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/ncdump-consol
+e.png  used on input line 15.
 (pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
 )
-Overfull \vbox (13.50648pt too high) detected at line 176
+Overfull \vbox (13.50648pt too high) detected at line 189
  []
 
-[26
+[30
+
+ </home/daniu/Documents/charla_GIS/figuras/ncdump-console.png>]
+(./presentacion_risaro.vrb
+File: /home/daniu/Documents/charla_GIS/figuras/ncdump-console.png Graphic file 
+(type png)
+<use /home/daniu/Documents/charla_GIS/figuras/ncdump-console.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/ncdump-consol
+e.png  used on input line 15.
+(pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
+)
+Overfull \vbox (13.50648pt too high) detected at line 189
+ []
+
+[31
 
 ] (./presentacion_risaro.vrb
-File: /home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png Graphic file
- (type png)
-<use /home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/ncdump-conso
-le.png  used on input line 15.
+File: /home/daniu/Documents/charla_GIS/figuras/ncdump-console.png Graphic file 
+(type png)
+<use /home/daniu/Documents/charla_GIS/figuras/ncdump-console.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/ncdump-consol
+e.png  used on input line 15.
 (pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
 )
-Overfull \vbox (13.50648pt too high) detected at line 176
+Overfull \vbox (13.50648pt too high) detected at line 189
  []
 
-[27
+[32
 
 ] (./presentacion_risaro.vrb
-File: /home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png Graphic file
- (type png)
-<use /home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/ncdump-conso
-le.png  used on input line 15.
+File: /home/daniu/Documents/charla_GIS/figuras/ncdump-console.png Graphic file 
+(type png)
+<use /home/daniu/Documents/charla_GIS/figuras/ncdump-console.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/ncdump-consol
+e.png  used on input line 15.
 (pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
 )
-Overfull \vbox (13.50648pt too high) detected at line 176
+Overfull \vbox (13.50648pt too high) detected at line 189
  []
 
-[28
+[33
 
 ] (./presentacion_risaro.vrb
-File: /home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png Graphic file
- (type png)
-<use /home/daniu/Documentos/charla_GIS/figuras/ncdump-console.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/ncdump-conso
-le.png  used on input line 15.
+File: /home/daniu/Documents/charla_GIS/figuras/ncdump-console.png Graphic file 
+(type png)
+<use /home/daniu/Documents/charla_GIS/figuras/ncdump-console.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/ncdump-consol
+e.png  used on input line 15.
 (pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
 )
-Overfull \vbox (13.50648pt too high) detected at line 176
+Overfull \vbox (13.50648pt too high) detected at line 189
  []
 
-[29
+[34
+
+] [35
 
 ]
 \openout4 = `presentacion_risaro.vrb'.
@@ -1618,173 +1693,241 @@ Overfull \vbox (13.50648pt too high) detected at line 176
  (./presentacion_risaro.vrb
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)) [30
+)) [36
 
 ]
-(./presentacion_risaro.vrb) [31
+(./presentacion_risaro.vrb) [37
 
 ] (./presentacion_risaro.vrb
-</home/daniu/Documentos/charla_GIS/figuras/dataset-diagram.png, id=956, 2111.89
+</home/daniu/Documents/charla_GIS/figuras/dataset-diagram.png, id=1127, 2111.89
 pt x 629.35126pt>
-File: /home/daniu/Documentos/charla_GIS/figuras/dataset-diagram.png Graphic fil
-e (type png)
-<use /home/daniu/Documentos/charla_GIS/figuras/dataset-diagram.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/dataset-diag
-ram.png  used on input line 20.
+File: /home/daniu/Documents/charla_GIS/figuras/dataset-diagram.png Graphic file
+ (type png)
+<use /home/daniu/Documents/charla_GIS/figuras/dataset-diagram.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/dataset-diagr
+am.png  used on input line 10.
 (pdftex.def)             Requested size: 316.76984pt x 94.3986pt.
-) [32
-
- </home/daniu/Documentos/charla_GIS/figuras/dataset-diagram.png>]
-\openout4 = `presentacion_risaro.vrb'.
-
- (./presentacion_risaro.vrb
-</home/daniu/Documentos/charla_GIS/figuras/xarray-info.png, id=983, 798.985pt x
- 459.7175pt>
-File: /home/daniu/Documentos/charla_GIS/figuras/xarray-info.png Graphic file (t
-ype png)
-<use /home/daniu/Documentos/charla_GIS/figuras/xarray-info.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/xarray-info.
-png  used on input line 16.
-(pdftex.def)             Requested size: 239.69734pt x 137.9163pt.
-)
-[33
-
- </home/daniu/Documentos/charla_GIS/figuras/xarray-info.png>]
-\openout4 = `presentacion_risaro.vrb'.
-
-
-(./presentacion_risaro.vrb
-Overfull \hbox (106.51463pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (91.21428pt too wide) in paragraph at lines 12--13
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) [34
-
-] (./presentacion_risaro.vrb
-Overfull \hbox (106.51463pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (91.21428pt too wide) in paragraph at lines 12--13
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-</home/daniu/Documentos/charla_GIS/figuras/map-chl.png, id=1039, 422.7795pt x 3
-16.5426pt>
-File: /home/daniu/Documentos/charla_GIS/figuras/map-chl.png Graphic file (type 
-png)
-<use /home/daniu/Documentos/charla_GIS/figuras/map-chl.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/map-chl.png 
- used on input line 18.
-(pdftex.def)             Requested size: 169.1088pt x 126.61479pt.
-)
-Overfull \vbox (11.58467pt too high) detected at line 253
- []
-
-[35
-
- </home/daniu/Documentos/charla_GIS/figuras/map-chl.png>]
-\openout4 = `presentacion_risaro.vrb'.
-
-
-(./presentacion_risaro.vrb) [36
-
-] (./presentacion_risaro.vrb
-</home/daniu/Documentos/charla_GIS/figuras/zonal-merid-chl.png, id=1093, 411.93
-9pt x 315.0972pt>
-File: /home/daniu/Documentos/charla_GIS/figuras/zonal-merid-chl.png Graphic fil
-e (type png)
-<use /home/daniu/Documentos/charla_GIS/figuras/zonal-merid-chl.png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/zonal-merid-
-chl.png  used on input line 17.
-(pdftex.def)             Requested size: 164.77267pt x 126.03664pt.
-)
-Overfull \vbox (1.50652pt too high) detected at line 278
- []
-
-[37
-
- </home/daniu/Documentos/charla_GIS/figuras/zonal-merid-chl.png>]
-\openout4 = `presentacion_risaro.vrb'.
-
-
-(./presentacion_risaro.vrb
-Overfull \hbox (19.81271pt too wide) in paragraph at lines 5--6
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (86.11418pt too wide) in paragraph at lines 8--10
-[][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
 ) [38
 
-] (./presentacion_risaro.vrb
-Overfull \hbox (19.81271pt too wide) in paragraph at lines 5--6
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (86.11418pt too wide) in paragraph at lines 8--10
-[][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-</home/daniu/Documentos/charla_GIS/figuras/spatial-mean-timeseries-chl-gsm.png,
- id=1149, 389.5353pt x 170.5572pt>
-File: /home/daniu/Documentos/charla_GIS/figuras/spatial-mean-timeseries-chl-gsm
-.png Graphic file (type png)
-<use /home/daniu/Documentos/charla_GIS/figuras/spatial-mean-timeseries-chl-gsm.
-png>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/spatial-mean
--timeseries-chl-gsm.png  used on input line 20.
-(pdftex.def)             Requested size: 233.72298pt x 102.3351pt.
+ </home/daniu/Documents/charla_GIS/figuras/dataset-diagram.png>] (./presentacio
+n_risaro.vrb
+File: /home/daniu/Documents/charla_GIS/figuras/dataset-diagram.png Graphic file
+ (type png)
+<use /home/daniu/Documents/charla_GIS/figuras/dataset-diagram.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/dataset-diagr
+am.png  used on input line 10.
+(pdftex.def)             Requested size: 316.76984pt x 94.3986pt.
 )
-Overfull \vbox (15.80498pt too high) detected at line 305
- []
-
 [39
 
- </home/daniu/Documentos/charla_GIS/figuras/spatial-mean-timeseries-chl-gsm.png
->]
+]
 \openout4 = `presentacion_risaro.vrb'.
 
  (./presentacion_risaro.vrb
-Overfull \hbox (183.01633pt too wide) in paragraph at lines 6--7
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
+</home/daniu/Documents/charla_GIS/figuras/xarray-info.png, id=1181, 798.985pt x
+ 459.7175pt>
+File: /home/daniu/Documents/charla_GIS/figuras/xarray-info.png Graphic file (ty
+pe png)
+<use /home/daniu/Documents/charla_GIS/figuras/xarray-info.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/xarray-info.p
+ng  used on input line 19.
+(pdftex.def)             Requested size: 239.69734pt x 137.9163pt.
 ) [40
 
-] (./presentacion_risaro.vrb
-Overfull \hbox (183.01633pt too wide) in paragraph at lines 6--7
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-</home/daniu/Documentos/charla_GIS/figuras/gridpoints-timeseries-chl-gsm.png, i
-d=1201, 380.1402pt x 182.8431pt>
-File: /home/daniu/Documentos/charla_GIS/figuras/gridpoints-timeseries-chl-gsm.p
-ng Graphic file (type png)
-<use /home/daniu/Documentos/charla_GIS/figuras/gridpoints-timeseries-chl-gsm.pn
-g>
-Package pdftex.def Info: /home/daniu/Documentos/charla_GIS/figuras/gridpoints-t
-imeseries-chl-gsm.png  used on input line 13.
-(pdftex.def)             Requested size: 228.08586pt x 109.7067pt.
+ </home/daniu/Documents/charla_GIS/figuras/xarray-info.png>] (./presentacion_ri
+saro.vrb
+File: /home/daniu/Documents/charla_GIS/figuras/xarray-info.png Graphic file (ty
+pe png)
+<use /home/daniu/Documents/charla_GIS/figuras/xarray-info.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/xarray-info.p
+ng  used on input line 19.
+(pdftex.def)             Requested size: 239.69734pt x 137.9163pt.
 ) [41
 
- </home/daniu/Documentos/charla_GIS/figuras/gridpoints-timeseries-chl-gsm.png>]
+]
+\openout4 = `presentacion_risaro.vrb'.
+
+ (./presentacion_risaro.vrb
+Overfull \hbox (128.41469pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
 
-LaTeX Warning: Citation `marrari' on page 42 undefined on input line 336.
+Overfull \hbox (113.11433pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-[42
+) [42
 
+] (./presentacion_risaro.vrb
+Overfull \hbox (128.41469pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (113.11433pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+</home/daniu/Documents/charla_GIS/figuras/map-chl.png, id=1264, 422.7795pt x 31
+6.5426pt>
+File: /home/daniu/Documents/charla_GIS/figuras/map-chl.png Graphic file (type p
+ng)
+<use /home/daniu/Documents/charla_GIS/figuras/map-chl.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/map-chl.png  
+used on input line 21.
+(pdftex.def)             Requested size: 156.42596pt x 117.11893pt.
+) [43
+
+ </home/daniu/Documents/charla_GIS/figuras/map-chl.png>]
+(./presentacion_risaro.vrb
+Overfull \hbox (128.41469pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (113.11433pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+File: /home/daniu/Documents/charla_GIS/figuras/map-chl.png Graphic file (type p
+ng)
+<use /home/daniu/Documents/charla_GIS/figuras/map-chl.png>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/map-chl.png  
+used on input line 21.
+(pdftex.def)             Requested size: 156.42596pt x 117.11893pt.
+) [44
+
+]
+\openout4 = `presentacion_risaro.vrb'.
+
+ (./presentacion_risaro.vrb) [45
+
+] (./presentacion_risaro.vrb
+</home/daniu/Documents/charla_GIS/figuras/zonal-merid-chl.pdf, id=1345, 413.423
+9pt x 315.81688pt>
+File: /home/daniu/Documents/charla_GIS/figuras/zonal-merid-chl.pdf Graphic file
+ (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/zonal-merid-chl.pdf>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/zonal-merid-c
+hl.pdf  used on input line 22.
+(pdftex.def)             Requested size: 165.36662pt x 126.3245pt.
+) [46
+
+ </home/daniu/Documents/charla_GIS/figuras/zonal-merid-chl.pdf>]
+(./presentacion_risaro.vrb
+File: /home/daniu/Documents/charla_GIS/figuras/zonal-merid-chl.pdf Graphic file
+ (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/zonal-merid-chl.pdf>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/zonal-merid-c
+hl.pdf  used on input line 22.
+(pdftex.def)             Requested size: 165.36662pt x 126.3245pt.
+) [47
+
+]
+\openout4 = `presentacion_risaro.vrb'.
+
+ (./presentacion_risaro.vrb) [48
+
+]
+(./presentacion_risaro.vrb
+</home/daniu/Documents/charla_GIS/figuras/spatial-mean-timeseries-chl-gsm.pdf, 
+id=1459, 390.73793pt x 171.18626pt>
+File: /home/daniu/Documents/charla_GIS/figuras/spatial-mean-timeseries-chl-gsm.
+pdf Graphic file (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/spatial-mean-timeseries-chl-gsm.p
+df>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/spatial-mean-
+timeseries-chl-gsm.pdf  used on input line 20.
+(pdftex.def)             Requested size: 234.44456pt x 102.71254pt.
+)
+Overfull \vbox (6.68242pt too high) detected at line 333
+ []
+
+[49
+
+ </home/daniu/Documents/charla_GIS/figuras/spatial-mean-timeseries-chl-gsm.pdf>
+]
+\openout4 = `presentacion_risaro.vrb'.
+
+ (./presentacion_risaro.vrb) [50
+
+] (./presentacion_risaro.vrb
+</home/daniu/Documents/charla_GIS/figuras/gridpoints-timeseries-chl-gsm.pdf, id
+=1533, 381.15526pt x 182.85486pt>
+File: /home/daniu/Documents/charla_GIS/figuras/gridpoints-timeseries-chl-gsm.pd
+f Graphic file (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/gridpoints-timeseries-chl-gsm.pdf
+>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/gridpoints-ti
+meseries-chl-gsm.pdf  used on input line 15.
+(pdftex.def)             Requested size: 228.6949pt x 109.71375pt.
+) [51
+
+ </home/daniu/Documents/charla_GIS/figuras/gridpoints-timeseries-chl-gsm.pdf>] 
+[52
+
+]
+[53
+
+] [54
+
+] [55
+
+] [56
+
+]
+</home/daniu/Documents/charla_GIS/figuras/media_spring_chl_a_1998-2017_swa_sep_
+25x25.pdf, id=1729, 282.4935pt x 173.63725pt>
+File: /home/daniu/Documents/charla_GIS/figuras/media_spring_chl_a_1998-2017_swa
+_sep_25x25.pdf Graphic file (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/media_spring_chl_a_1998-2017_swa_
+sep_25x25.pdf>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/media_spring_
+chl_a_1998-2017_swa_sep_25x25.pdf  used on input line 382.
+(pdftex.def)             Requested size: 254.2418pt x 156.27206pt.
+ [57
+
+ </home/daniu/Documents/charla_GIS/figuras/media_spring_chl_a_1998-2017_swa_sep
+_25x25.pdf>]
+</home/daniu/Documents/charla_GIS/figuras/std_spring_chl_a_1998-2017_swa_sep_25
+x25.pdf, id=1840, 287.29268pt x 173.63725pt>
+File: /home/daniu/Documents/charla_GIS/figuras/std_spring_chl_a_1998-2017_swa_s
+ep_25x25.pdf Graphic file (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/std_spring_chl_a_1998-2017_swa_se
+p_25x25.pdf>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/std_spring_ch
+l_a_1998-2017_swa_sep_25x25.pdf  used on input line 394.
+(pdftex.def)             Requested size: 258.56102pt x 156.27206pt.
+ [58
+
+ </home/daniu/Documents/charla_GIS/figuras/std_spring_chl_a_1998-2017_swa_sep_2
+5x25.pdf>]
+</home/daniu/Documents/charla_GIS/figuras/trend_b_anom_chl_1998-2017_swa_sep.pd
+f, id=1936, 291.49591pt x 173.63725pt>
+File: /home/daniu/Documents/charla_GIS/figuras/trend_b_anom_chl_1998-2017_swa_s
+ep.pdf Graphic file (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/trend_b_anom_chl_1998-2017_swa_se
+p.pdf>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/trend_b_anom_
+chl_1998-2017_swa_sep.pdf  used on input line 406.
+(pdftex.def)             Requested size: 262.34389pt x 156.27206pt.
+ [59
+
+ </home/daniu/Documents/charla_GIS/figuras/trend_b_anom_chl_1998-2017_swa_sep.p
+df>]
+</home/daniu/Documents/charla_GIS/figuras/whiskers_plot_chl_70-55W_55-35S.pdf, 
+id=2064, 726.3386pt x 261.1356pt>
+File: /home/daniu/Documents/charla_GIS/figuras/whiskers_plot_chl_70-55W_55-35S.
+pdf Graphic file (type pdf)
+<use /home/daniu/Documents/charla_GIS/figuras/whiskers_plot_chl_70-55W_55-35S.p
+df>
+Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/whiskers_plot
+_chl_70-55W_55-35S.pdf  used on input line 418.
+(pdftex.def)             Requested size: 326.84935pt x 117.50992pt.
+ [60
+
+ </home/daniu/Documents/charla_GIS/figuras/whiskers_plot_chl_70-55W_55-35S.pdf>
 ]
 \tf@nav=\write6
 \openout6 = `presentacion_risaro.nav'.
@@ -1795,31 +1938,28 @@ LaTeX Warning: Citation `marrari' on page 42 undefined on input line 336.
 \tf@snm=\write8
 \openout8 = `presentacion_risaro.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
- (./presentacion_risaro.aux
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 422.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 422.
+
+(./presentacion_risaro.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 373.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 422.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 422.
 Package rerunfilecheck Info: File `presentacion_risaro.out' has not changed.
 (rerunfilecheck)             Checksum: F318A114A4D9A3E8E2017E00A10412E5;214.
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 24511 strings out of 492982
- 461031 string characters out of 6134897
- 567487 words of memory out of 5000000
- 27415 multiletter control sequences out of 15000+600000
- 15647 words of font info for 57 fonts, out of 8000000 for 9000
+ 24596 strings out of 492982
+ 463487 string characters out of 6134895
+ 565669 words of memory out of 5000000
+ 27446 multiletter control sequences out of 15000+600000
+ 15353 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,67p,813b,1327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,67p,813b,1438s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
@@ -1829,10 +1969,10 @@ dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt10.pfb>
-Output written on presentacion_risaro.pdf (42 pages, 1422792 bytes).
+Output written on presentacion_risaro.pdf (60 pages, 2492456 bytes).
 PDF statistics:
- 1307 PDF objects out of 1440 (max. 8388607)
- 1173 compressed objects within 12 object streams
- 89 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2205 PDF objects out of 2487 (max. 8388607)
+ 1840 compressed objects within 19 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

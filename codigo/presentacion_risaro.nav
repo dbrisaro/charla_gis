@@ -7,41 +7,57 @@
 \headcommand {\sectionentry {1}{Motivaci\IeC {\'o}n}{3}{Motivaci\IeC {\'o}n}{0}}
 \headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\beamer@sectionpages {3}{3}}
-\headcommand {\beamer@subsectionpages {3}{3}}
-\headcommand {\sectionentry {2}{Datos de clorofila}{4}{Datos de clorofila}{0}}
-\headcommand {\slideentry {2}{0}{1}{4/10}{}{0}}
-\headcommand {\beamer@framepages {4}{10}}
-\headcommand {\slideentry {2}{0}{2}{11/20}{}{0}}
-\headcommand {\beamer@framepages {11}{20}}
-\headcommand {\slideentry {2}{0}{3}{21/22}{}{0}}
-\headcommand {\beamer@framepages {21}{22}}
-\headcommand {\slideentry {2}{0}{4}{23/24}{}{0}}
-\headcommand {\beamer@framepages {23}{24}}
-\headcommand {\slideentry {2}{0}{5}{25/29}{}{0}}
-\headcommand {\beamer@framepages {25}{29}}
-\headcommand {\beamer@sectionpages {4}{29}}
-\headcommand {\beamer@subsectionpages {4}{29}}
-\headcommand {\sectionentry {3}{Python workflow}{30}{Python workflow}{0}}
-\headcommand {\slideentry {3}{0}{1}{30/32}{}{0}}
-\headcommand {\beamer@framepages {30}{32}}
-\headcommand {\slideentry {3}{0}{2}{33/33}{}{0}}
-\headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {3}{0}{3}{34/35}{}{0}}
-\headcommand {\beamer@framepages {34}{35}}
-\headcommand {\slideentry {3}{0}{4}{36/37}{}{0}}
-\headcommand {\beamer@framepages {36}{37}}
-\headcommand {\slideentry {3}{0}{5}{38/39}{}{0}}
-\headcommand {\beamer@framepages {38}{39}}
-\headcommand {\slideentry {3}{0}{6}{40/41}{}{0}}
+\headcommand {\slideentry {1}{0}{2}{4/4}{}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\beamer@sectionpages {3}{4}}
+\headcommand {\beamer@subsectionpages {3}{4}}
+\headcommand {\sectionentry {2}{Datos de clorofila}{5}{Datos de clorofila}{0}}
+\headcommand {\slideentry {2}{0}{1}{5/5}{}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {2}{0}{2}{6/12}{}{0}}
+\headcommand {\beamer@framepages {6}{12}}
+\headcommand {\slideentry {2}{0}{3}{13/22}{}{0}}
+\headcommand {\beamer@framepages {13}{22}}
+\headcommand {\slideentry {2}{0}{4}{23/26}{}{0}}
+\headcommand {\beamer@framepages {23}{26}}
+\headcommand {\slideentry {2}{0}{5}{27/29}{}{0}}
+\headcommand {\beamer@framepages {27}{29}}
+\headcommand {\slideentry {2}{0}{6}{30/34}{}{0}}
+\headcommand {\beamer@framepages {30}{34}}
+\headcommand {\beamer@sectionpages {5}{34}}
+\headcommand {\beamer@subsectionpages {5}{34}}
+\headcommand {\sectionentry {3}{Python workflow}{35}{Python workflow}{0}}
+\headcommand {\slideentry {3}{0}{1}{35/35}{}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\slideentry {3}{0}{2}{36/39}{}{0}}
+\headcommand {\beamer@framepages {36}{39}}
+\headcommand {\slideentry {3}{0}{3}{40/41}{}{0}}
 \headcommand {\beamer@framepages {40}{41}}
-\headcommand {\beamer@sectionpages {30}{41}}
-\headcommand {\beamer@subsectionpages {30}{41}}
-\headcommand {\sectionentry {4}{Resultados del mar Argentino}{42}{Resultados del mar Argentino}{0}}
-\headcommand {\slideentry {4}{0}{1}{42/42}{}{0}}
-\headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@partpages {1}{42}}
-\headcommand {\beamer@subsectionpages {42}{42}}
-\headcommand {\beamer@sectionpages {42}{42}}
-\headcommand {\beamer@documentpages {42}}
-\headcommand {\gdef \inserttotalframenumber {15}}
+\headcommand {\slideentry {3}{0}{4}{42/44}{}{0}}
+\headcommand {\beamer@framepages {42}{44}}
+\headcommand {\slideentry {3}{0}{5}{45/47}{}{0}}
+\headcommand {\beamer@framepages {45}{47}}
+\headcommand {\slideentry {3}{0}{6}{48/49}{}{0}}
+\headcommand {\beamer@framepages {48}{49}}
+\headcommand {\slideentry {3}{0}{7}{50/51}{}{0}}
+\headcommand {\beamer@framepages {50}{51}}
+\headcommand {\beamer@sectionpages {35}{51}}
+\headcommand {\beamer@subsectionpages {35}{51}}
+\headcommand {\sectionentry {4}{Resultados del mar Argentino}{52}{Resultados del mar Argentino}{0}}
+\headcommand {\slideentry {4}{0}{1}{52/52}{}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\slideentry {4}{0}{2}{53/56}{}{0}}
+\headcommand {\beamer@framepages {53}{56}}
+\headcommand {\slideentry {4}{0}{3}{57/57}{}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\slideentry {4}{0}{4}{58/58}{}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\slideentry {4}{0}{5}{59/59}{}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\slideentry {4}{0}{6}{60/60}{}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\beamer@partpages {1}{60}}
+\headcommand {\beamer@subsectionpages {52}{60}}
+\headcommand {\beamer@sectionpages {52}{60}}
+\headcommand {\beamer@documentpages {60}}
+\headcommand {\gdef \inserttotalframenumber {23}}

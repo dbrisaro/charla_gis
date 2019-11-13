@@ -3,14 +3,16 @@
 \begin{lstlisting}[language=python, basicstyle=\scriptsize]
 
 # plot of time series from selected gridpoints
-data_chl_gsm_points = data_chl_gsm.sel(longitude=[-64], latitude=[-42,-43], method='nearest').squeeze()
+data_chl_gsm_points = data_chl_gsm.sel(longitude=[-64],
+					latitude=[-42,-43],
+					method='nearest').squeeze()
 data_chl_gsm_points.chl.plot.line(x='time', aspect=3, size=2)
 \end{lstlisting}
 
 \begin{figure}
 
 	\begin{tikzpicture}
-	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.6]{gridpoints-timeseries-chl-gsm.png}};
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.6]{gridpoints-timeseries-chl-gsm.pdf}};
 	\end{tikzpicture}
 
 \end{figure}

@@ -11,13 +11,27 @@
 \usepackage{tikz}
 \usepackage{listings}
 
-\graphicspath{{/home/daniu/Documentos/charla_GIS/figuras/}}
+\graphicspath{{/home/daniu/Documents/charla_GIS/figuras/}}
 
+\AtBeginSection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+			\usebeamerfont{title}\insertsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
 \usetheme{Madrid}
 
 \title[Python para SIG]{Caracterización espacio-temporal de la clorofila en el mar argentino mediante herramientas de Python}
 \subtitle{}
 \author[Risaro, Daniela B]{Daniela B. Risaro\inst{1} \inst{2}}
+
+\author[Risaro, Daniela B]{\parbox{.5\textwidth}{\centering {Daniela B. Risaro\inst{1} \inst{2}}\\[3pt]
+		\scriptsize Twitter: \href{http://www.twitter.com/dbrisaro}{@dbrisaro} \\
+		Github: \href{https://github.com/dbrisaro/charla_GIS}{Repositorio Github}}}
 
 \institute[SHN-UBA] % (optional)
 {
@@ -37,17 +51,17 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Esquema }
+\frametitle{Esquema}
 \tableofcontents
 \end{frame} 
 
 \section{Motivación}
 
 \begin{frame}
- \frametitle{El mar argentino}
+ \frametitle{Area de estudio - El mar argentino}
  
 \begin{figure}
- \includegraphics[scale=0.85]{intro.png}
+ \includegraphics[scale=0.83]{intro.png}
 \caption{a) Distribucion climatológica de TSM en el Atlántico Sudoccidental junto principales corrientes oceánicas. b) Clorofila superficial media durante la primavera en la plataforma patagónica.}
  \end{figure}
 \end{frame}
@@ -57,14 +71,12 @@
 
 \begin{frame}[t]
  \frametitle{Datos disponibles - clorofila-a}
- 
 
   \begin{itemize}
    \item<1-> Mediciones in-situ \pause $\rightarrow$ muy escasas
-   \item<3-> Satelitales 
+   \item<3-> Satelitales  \pause $\rightarrow$ sensores de color
       
    \begin{figure}
-   	
    	\begin{tikzpicture}
    	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<4->[scale=0.9]{global_ocean_color_sensors.pdf}};
    	\draw<5->[red,thick,rounded corners] (3.55,2.1) rectangle (5.8,2.45);
@@ -81,9 +93,9 @@
 \frametitle{Archivos}
 
 \begin{itemize}
-	\item<1->[] ¿Dónde encuentro esta información? $\rightarrow$ Ocean color \href{https://oceancolor.gsfc.nasa.gov/}{\beamergotobutton{Link}}
+	\item<1-> ¿Dónde encuentro esta información? $\rightarrow$ Ocean color \href{https://oceancolor.gsfc.nasa.gov/}{\beamergotobutton{Link}}
 
-	\item<2->[] Niveles de procesamiento:
+	\item<2-> Niveles de procesamiento:
 \begin{itemize}
 	\item L1 y L2
 	\item L3 $\rightarrow$ grillados 
@@ -110,16 +122,15 @@
 \begin{frame}[fragile]
 \frametitle{Archivos}
 
-Luego de seleccionar la opcion 'Mapped' uno obtiene una lista de links de archivos netCDF (.nc)
-\\~\\
-\url{https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/A20022132002243.L3m_MO_CHL.x_chlor_a.nc} \href{https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/A20022132002243.L3m_MO_CHL.x_chlor_a.nc}{\beamergotobutton{Link}}
-\\~\\
-
-\pause
-Si son varios archivos:
 \begin{itemize}
-	\item generar un archivo datos.txt 
-	\item ejecutar en la terminal el comando 
+	\item<1-> Luego de seleccionar la opcion 'Mapped' uno obtiene una lista de links de archivos netCDF (.nc)
+	\item<2-> \url{https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/A20022132002243.L3m_MO_CHL.x_chlor_a.nc} \href{https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/A20022132002243.L3m_MO_CHL.x_chlor_a.nc}{\beamergotobutton{Link}}
+\end{itemize}
+
+\begin{itemize}
+	\item[]<3-> Si son varios archivos:
+	\item<4-> generar un archivo datos.txt 
+	\item<4-> ejecutar en la terminal el comando 
 	
 	\begin{lstlisting}[language=bash, basicstyle=\scriptsize]
 	cd /home/daniu/Documentos/charla_gis/
@@ -133,19 +144,21 @@ Si son varios archivos:
 \begin{frame}[fragile]
 \frametitle{Archivos}
 
-Un archivo netCDF (Network Common Data Form) es un formato que guarda datos multidimensionales para variables climáticas, por ejemplo:
+\begin{itemize}
+	
+\item<1-> Un archivo netCDF (Network Common Data Form) es un formato que guarda datos multidimensionales para variables climáticas, por ejemplo:
 
 \begin{itemize}
 	
-	\item TSM (tiempo, latitud, longitud)
-	\item Taire (tiempo, latitud, longitud, presion)
-	\item clorofila-a (tiempo, latitud, longitud)
+	\item<2-> TSM (tiempo, latitud, longitud)
+	\item<2-> Taire (tiempo, latitud, longitud, presion)
+	\item<2-> clorofila-a (tiempo, latitud, longitud)
 	
 \end{itemize}
 
-\pause
+\item<3-> El archivo .nc tiene un \textit{header} que contiene toda la información sobre las dimensiones y atributos de las variables, pero no los valores en si. Los datos están comprimidos en la \textit{data-part} del archivo. 
 
-El archivo .nc tiene un \textit{header} que contiene toda la información sobre las dimensiones y atributos de las variables, pero no los valores en si. Los datos, están comprimidos en la \textit{data-part} del archivo. 
+\end{itemize}
 
 \end{frame}
 
@@ -180,33 +193,37 @@ y obtenemos lo siguiente:
 \begin{frame}[t,fragile]
 \frametitle{Manipulación .nc en python}
 
-En Python hay una libreria especializada en la manipulación de archivos netCDF llamada \texttt{xarray} (más info en: \href{http://xarray.pydata.org/en/stable/}{\beamergotobutton{Link}})
+\begin{itemize}
 
-\pause
+	\item<1-> En Python hay una libreria especializada en la manipulación de archivos netCDF llamada \texttt{xarray} (más info en: \href{http://xarray.pydata.org/en/stable/}{\beamergotobutton{Link}})
+
+	\item[]<2-> 
+	\begin{figure}
+		\begin{tikzpicture}
+		\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<3->[scale=0.15]{dataset-diagram.png}};
+		\end{tikzpicture}
+	\end{figure}
+
+	\item[]<4-> 
+
 \begin{lstlisting}[language=python, basicstyle=\scriptsize]
-
 import xarray as xr
 
 dire = '/home/daniu/Documentos/charla_gis/'
 filename = 'A20022132002243.L3m_MO_CHL.x_chlor_a.nc'
 data = xr.open_dataset(dire + filename)
-
+print(data_chl)
 \end{lstlisting}
 
-
-\begin{figure}
-	
-	\begin{tikzpicture}
-	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<3->[scale=0.15]{dataset-diagram.png}};
-	\end{tikzpicture}
-	
-\end{figure}
+\end{itemize}
 \end{frame}
 
 
 \begin{frame}[fragile]
 \frametitle{Operaciones con xarray}
 
+\begin{itemize}
+	\item[]<1->
 \begin{lstlisting}[language=python, basicstyle=\scriptsize]
 import xarray as xr
 
@@ -217,6 +234,7 @@ data_chl = xr.open_dataset(dire + filename)
 print(data_chl)
 \end{lstlisting}
 
+	\item[]<2->
 \begin{figure}
 	
 	\begin{tikzpicture}
@@ -225,55 +243,65 @@ print(data_chl)
 	
 \end{figure}
 
+\end{itemize}
 \end{frame}
+
 
 \begin{frame}[t,fragile]
 \frametitle{Operaciones con xarray - Mapas}
-
+\begin{itemize}
+	\item[]<1->
 \begin{lstlisting}[language=python, basicstyle=\scriptsize]
 import xarray as xr
 
 dire = '/home/daniu/Documentos/charla_gis/'
 filename = 'A20022132002243.L3m_MO_CHL.x_chlor_a.nc'
 data_chl = xr.open_dataset(dire + filename)
-
-data_chl_pp = data_chl.sel(lat=slice(-40, -55), lon=slice(-70, -46))	# select an area
+\end{lstlisting}
+	\item[]<2->
+\begin{lstlisting}[language=python, basicstyle=\scriptsize]
+data_chl_pp = data_chl.sel(lat=slice(-40,-55), lon=slice(-70,-46))	# select an area
 levels = np.linspace(0,3.5,15)
 data_chl_pp.chlor_a.plot(levels=levels)					# simple plot
 \end{lstlisting}
-
+	\item[]<3->
 \begin{figure}
 	
 	\begin{tikzpicture}
-	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.4]{map-chl.png}};
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.37]{map-chl.png}};
 	\end{tikzpicture}
 	
 \end{figure}
-
+\end{itemize}
 \end{frame}
 
 \begin{frame}[t, fragile]
 \frametitle{Operaciones con xarray - Promedios espaciales}
-
+\begin{itemize}
+	
+	\item[]<1->
 \begin{lstlisting}[language=python, basicstyle=\scriptsize]
 # zonal and meridional mean
 mean_chl_zonal = data_chl_pp.mean(dim=('lon'))
 mean_chl_meridional = data_chl_pp.mean(dim=('lat'))
-
+\end{lstlisting}
+	
+	\item[]<2->
+	\begin{lstlisting}[language=python, basicstyle=\scriptsize]
 # plot of two panels
 fig, ax = plt.subplots(1, 2)
 mean_chl_zonal.chlor_a.plot(ax=ax[0])
 mean_chl_meridional.chlor_a.plot(ax=ax[1])
-\end{lstlisting}
-
-\begin{figure}
+	\end{lstlisting}
 	
-	\begin{tikzpicture}
-	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.4]{zonal-merid-chl.png}};
-	\end{tikzpicture}
+	\item[]<3->	
+	\begin{figure}
+		\begin{tikzpicture}
+		\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.4]{zonal-merid-chl.pdf}};
+		\end{tikzpicture}
+	\end{figure}
 	
-\end{figure}
-
+\end{itemize}
 
 \end{frame}
 
@@ -282,12 +310,12 @@ mean_chl_meridional.chlor_a.plot(ax=ax[1])
 
 \begin{lstlisting}[language=python, basicstyle=\scriptsize]
 # Load the file with the data of SWF and MODIS from 2000 to 2010
-filename = 'chl_9km_70-55W_55-40S_2000-2010.nc'    # nombre del archivo
+filename = 'chl_9km_70-55W_55-40S_2000-2010.nc'    
 data_chl = xr.open_dataset(dire + filename)
 
-data_chl_gsm = data_chl.sel(latitude=slice(-40, -43), longitude=slice(-65, -60))    # select an area
+data_chl_gsm = data_chl.sel(latitude=slice(-40, -43), 
+			longitude=slice(-65, -60)) 
 
-# zonal and meridional mean
 mean_chl_spatial = data_chl_gsm.mean(dim=('latitude', 'longitude'))
 
 # plot of a mean time serie
@@ -297,7 +325,7 @@ mean_chl_spatial.chl.plot(aspect=3, size=2)
 \begin{figure}
 	
 	\begin{tikzpicture}
-	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.6]{spatial-mean-timeseries-chl-gsm.png}};
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.6]{spatial-mean-timeseries-chl-gsm.pdf}};
 	\end{tikzpicture}
 	
 \end{figure}
@@ -310,14 +338,16 @@ mean_chl_spatial.chl.plot(aspect=3, size=2)
 \begin{lstlisting}[language=python, basicstyle=\scriptsize]
 
 # plot of time series from selected gridpoints
-data_chl_gsm_points = data_chl_gsm.sel(longitude=[-64], latitude=[-42,-43], method='nearest').squeeze()
+data_chl_gsm_points = data_chl_gsm.sel(longitude=[-64], 
+					latitude=[-42,-43], 
+					method='nearest').squeeze()
 data_chl_gsm_points.chl.plot.line(x='time', aspect=3, size=2)
 \end{lstlisting}
 
 \begin{figure}
 	
 	\begin{tikzpicture}
-	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.6]{gridpoints-timeseries-chl-gsm.png}};
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.6]{gridpoints-timeseries-chl-gsm.pdf}};
 	\end{tikzpicture}
 	
 \end{figure}
@@ -327,47 +357,66 @@ data_chl_gsm_points.chl.plot.line(x='time', aspect=3, size=2)
 
 \section{Resultados del mar Argentino}
 \begin{frame}
+	
 \frametitle{Construccion series temporales}
 
 \begin{itemize}
-	\item Se realizo una serie que unifica a SWFs y MODIS en cada punto de grilla segun la metodología de \cite{marrari}
+	\item<1-> Se realizo una serie que unifica a SWFs y MODIS en cada punto de grilla segun la metodología de \textit{Marrari et al 2015}
+	\item<2-> SWF 1997-2010 
+	\item<3-> MODIS 2002-presente
+	\item[]<4-> $\rightarrow$ serie unica de clorofila desde 1997 hasta la actualidad con una resolucion espacial de 9km y datos diarios/semanales/mensuales
 \end{itemize}
 
 \end{frame}
 
+\begin{frame}
+	
+\frametitle{Algunos plots}
+\begin{figure}
+	\begin{tikzpicture}
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[scale=0.9]{media_spring_chl_a_1998-2017_swa_sep_25x25.pdf}};
+	\end{tikzpicture}
+	\caption{Distribucion climatológica de clorofila-a media durante los meses de primavera para el periodo 1998-2017}
+\end{figure}
+	
+\end{frame}
 
-%
-%
-%\section{Conclusiones}
-%\begin{frame}
-%\frametitle{Conclusiones}
-%\vspace{-0.3cm}
-% \begin{itemize}
-%  \item<1-> Los autores realizan un estudio de los modos de variabilidad de anomalías de SST en los océanos australes a partir de un ensamble de modelos del CMIP5.
-%  \item<2->  Los tres modos principales son:
-%        \begin{itemize}
-%         \item EOF-1: Modo anular
-%         \item EOF-2: Patrón monopolar con máximos en el Atlántico Sur
-%         \item EOF-3: Dipolo del Pacífico Sur
-%        \end{itemize}
-%  \item<3->  Los períodos de oscilación de cada modo:
-%        \begin{itemize}
-%         \item EOF-1: Modo anular $\Rightarrow$ interanuales a decadales
-%         \item EOF-2: Patrón monopolar con máximos en el Atl Sur $\Rightarrow$ $T>50$ años 
-%         \item EOF-3: Dipolo del Pacífico Sur $\Rightarrow$ $T=80 \sim 100$ años
-%        \end{itemize}
-% \item<4->  Mecanismos físicos asociados a cada modo:
-% 
-%        \begin{itemize}
-%         \item EOF-1: Modo anular $\Rightarrow$ ENSO y SAM
-%         \item EOF-2: Patrón monopolar con máximos en el Atl Sur $\Rightarrow$ Patrón de onda 3 atmosférico + respuesta oceánica subsuperficial
-%         \item EOF-3: Dipolo del Pacífico Sur $\Rightarrow$ Patrón de onda 3 atmosférico + variabilidad del océano profundo
-%        \end{itemize}
-%        
-% \item<5->  Interacción entre modos de variabilidad dos y tres.
-% \end{itemize}
-%
-%\end{frame}
+\begin{frame}
+	
+	\frametitle{Algunos plots}
+	\begin{figure}
+		\begin{tikzpicture}
+		\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[scale=0.9]{std_spring_chl_a_1998-2017_swa_sep_25x25.pdf}};
+		\end{tikzpicture}
+	\caption{Distribucion del desvio estandar de clorofila-a durante los meses de primavera para el periodo 1998-2017}
+	\end{figure}
+
+\end{frame}
+
+\begin{frame}
+	
+	\frametitle{Algunos plots}
+	\begin{figure}
+		\begin{tikzpicture}
+		\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[scale=0.9]{trend_b_anom_chl_1998-2017_swa_sep.pdf}};
+		\end{tikzpicture}
+	\caption{Distribucion de tendencias lineales de anomalias de clorofila-a durante el periodo 1998-2017}	
+	\end{figure}
+
+\end{frame}
+
+\begin{frame}
+	
+	\frametitle{Algunos plots}
+	\begin{figure}
+		\begin{tikzpicture}
+		\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[scale=0.45]{whiskers_plot_chl_70-55W_55-35S.pdf}};
+		\end{tikzpicture}
+	\caption{Evolucion del ciclo climatologico de clorofila-a para los periodos 1998-2007 y 2008-2017}	
+	\end{figure}
+	
+\end{frame}
+
 
 
 \end{document}
