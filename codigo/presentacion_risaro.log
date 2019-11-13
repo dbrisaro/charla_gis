@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.13)  13 NOV 2019 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.13)  13 NOV 2019 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1169,63 +1169,67 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 34.
+(hyperref)                removing `\@ifnextchar' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\textwidth' on input line 34.
+(hyperref)                removing `\textwidth' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 34.
+(hyperref)                removing `\<let>-command' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 34.
+(hyperref)                removing `\\' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 34.
+(hyperref)                removing `\@centercr' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 34.
+(hyperref)                removing `\rightskip' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 34.
+(hyperref)                removing `\@flushglue' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 34.
+(hyperref)                removing `\leftskip' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 34.
+(hyperref)                removing `\@flushglue' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 34.
+(hyperref)                removing `\parindent' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 34.
+(hyperref)                removing `\z@' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 34.
+(hyperref)                removing `\parfillskip' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 34.
+(hyperref)                removing `\z@skip' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 34.
+(hyperref)                removing `\\' on input line 35.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 34.
+(hyperref)                removing `\\' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 35.
 
 (./presentacion_risaro.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -1235,20 +1239,20 @@ LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `presentacion_risaro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1316,7 +1320,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1326,66 +1330,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count188
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
 (./presentacion_risaro.out) (./presentacion_risaro.out)
 \@outlinefile=\write5
 \openout5 = `presentacion_risaro.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 48.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 48.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 49.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 48.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 48.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 48.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 48.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 48.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 48.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 48.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 48.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 48.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 48.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 48.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 48.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 48.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 48.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 48.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 48.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 48.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 48.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 48.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 48.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 49.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 49.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
-8.
+9.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-48.
+49.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 48.
+ut line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1411,28 +1415,28 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 48.
+LaTeX Info: Redefining \selectfont on input line 49.
 \c@lstlisting=\count189
 
 (./presentacion_risaro.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 51.
+line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1457,10 +1461,10 @@ File: /home/daniu/Documents/charla_GIS/figuras/intro.png Graphic file (type png
 )
 <use /home/daniu/Documents/charla_GIS/figuras/intro.png>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/intro.png  us
-ed on input line 67.
+ed on input line 68.
 (pdftex.def)             Requested size: 212.82352pt x 190.38947pt.
 
-Overfull \vbox (15.81886pt too high) detected at line 67
+Overfull \vbox (15.81886pt too high) detected at line 68
  []
 
 [4
@@ -1480,7 +1484,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf G
 raphic file (type pdf)
 <use /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/global_ocean_
-color_sensors.pdf  used on input line 89.
+color_sensors.pdf  used on input line 90.
 (pdftex.def)             Requested size: 223.50418pt x 168.19557pt.
 
 [9
@@ -1490,7 +1494,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf G
 raphic file (type pdf)
 <use /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/global_ocean_
-color_sensors.pdf  used on input line 89.
+color_sensors.pdf  used on input line 90.
 (pdftex.def)             Requested size: 223.50418pt x 168.19557pt.
 
 [10
@@ -1500,7 +1504,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf G
 raphic file (type pdf)
 <use /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/global_ocean_
-color_sensors.pdf  used on input line 89.
+color_sensors.pdf  used on input line 90.
 (pdftex.def)             Requested size: 223.50418pt x 168.19557pt.
  [11
 
@@ -1509,7 +1513,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf G
 raphic file (type pdf)
 <use /home/daniu/Documents/charla_GIS/figuras/global_ocean_color_sensors.pdf>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/global_ocean_
-color_sensors.pdf  used on input line 89.
+color_sensors.pdf  used on input line 90.
 (pdftex.def)             Requested size: 223.50418pt x 168.19557pt.
  [12
 
@@ -1526,7 +1530,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
  png)
 <use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
-  used on input line 119.
+  used on input line 120.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [16
 
@@ -1535,7 +1539,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
  png)
 <use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
-  used on input line 119.
+  used on input line 120.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [17
 
@@ -1544,7 +1548,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
  png)
 <use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
-  used on input line 119.
+  used on input line 120.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [18
 
@@ -1553,7 +1557,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
  png)
 <use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
-  used on input line 119.
+  used on input line 120.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [19
 
@@ -1562,7 +1566,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
  png)
 <use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
-  used on input line 119.
+  used on input line 120.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [20
 
@@ -1571,7 +1575,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
  png)
 <use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
-  used on input line 119.
+  used on input line 120.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [21
 
@@ -1580,7 +1584,7 @@ File: /home/daniu/Documents/charla_GIS/figuras/L3browser.png Graphic file (type
  png)
 <use /home/daniu/Documents/charla_GIS/figuras/L3browser.png>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/L3browser.png
-  used on input line 119.
+  used on input line 120.
 (pdftex.def)             Requested size: 279.34448pt x 136.47028pt.
  [22
 
@@ -1627,7 +1631,7 @@ Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/ncdump-consol
 e.png  used on input line 15.
 (pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
 )
-Overfull \vbox (13.50648pt too high) detected at line 189
+Overfull \vbox (13.50648pt too high) detected at line 190
  []
 
 [30
@@ -1641,7 +1645,7 @@ Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/ncdump-consol
 e.png  used on input line 15.
 (pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
 )
-Overfull \vbox (13.50648pt too high) detected at line 189
+Overfull \vbox (13.50648pt too high) detected at line 190
  []
 
 [31
@@ -1654,7 +1658,7 @@ Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/ncdump-consol
 e.png  used on input line 15.
 (pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
 )
-Overfull \vbox (13.50648pt too high) detected at line 189
+Overfull \vbox (13.50648pt too high) detected at line 190
  []
 
 [32
@@ -1667,7 +1671,7 @@ Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/ncdump-consol
 e.png  used on input line 15.
 (pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
 )
-Overfull \vbox (13.50648pt too high) detected at line 189
+Overfull \vbox (13.50648pt too high) detected at line 190
  []
 
 [33
@@ -1680,7 +1684,7 @@ Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/ncdump-consol
 e.png  used on input line 15.
 (pdftex.def)             Requested size: 210.18153pt x 174.24791pt.
 )
-Overfull \vbox (13.50648pt too high) detected at line 189
+Overfull \vbox (13.50648pt too high) detected at line 190
  []
 
 [34
@@ -1841,7 +1845,7 @@ Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/spatial-mean-
 timeseries-chl-gsm.pdf  used on input line 20.
 (pdftex.def)             Requested size: 234.44456pt x 102.71254pt.
 )
-Overfull \vbox (6.68242pt too high) detected at line 333
+Overfull \vbox (6.68242pt too high) detected at line 334
  []
 
 [49
@@ -1884,7 +1888,7 @@ _sep_25x25.pdf Graphic file (type pdf)
 <use /home/daniu/Documents/charla_GIS/figuras/media_spring_chl_a_1998-2017_swa_
 sep_25x25.pdf>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/media_spring_
-chl_a_1998-2017_swa_sep_25x25.pdf  used on input line 382.
+chl_a_1998-2017_swa_sep_25x25.pdf  used on input line 383.
 (pdftex.def)             Requested size: 254.2418pt x 156.27206pt.
  [57
 
@@ -1897,7 +1901,7 @@ ep_25x25.pdf Graphic file (type pdf)
 <use /home/daniu/Documents/charla_GIS/figuras/std_spring_chl_a_1998-2017_swa_se
 p_25x25.pdf>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/std_spring_ch
-l_a_1998-2017_swa_sep_25x25.pdf  used on input line 394.
+l_a_1998-2017_swa_sep_25x25.pdf  used on input line 395.
 (pdftex.def)             Requested size: 258.56102pt x 156.27206pt.
  [58
 
@@ -1910,24 +1914,26 @@ ep.pdf Graphic file (type pdf)
 <use /home/daniu/Documents/charla_GIS/figuras/trend_b_anom_chl_1998-2017_swa_se
 p.pdf>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/trend_b_anom_
-chl_1998-2017_swa_sep.pdf  used on input line 406.
+chl_1998-2017_swa_sep.pdf  used on input line 407.
 (pdftex.def)             Requested size: 262.34389pt x 156.27206pt.
  [59
 
  </home/daniu/Documents/charla_GIS/figuras/trend_b_anom_chl_1998-2017_swa_sep.p
 df>]
 </home/daniu/Documents/charla_GIS/figuras/whiskers_plot_chl_70-55W_55-35S.pdf, 
-id=2064, 726.3386pt x 261.1356pt>
+id=2065, 726.3386pt x 261.1356pt>
 File: /home/daniu/Documents/charla_GIS/figuras/whiskers_plot_chl_70-55W_55-35S.
 pdf Graphic file (type pdf)
 <use /home/daniu/Documents/charla_GIS/figuras/whiskers_plot_chl_70-55W_55-35S.p
 df>
 Package pdftex.def Info: /home/daniu/Documents/charla_GIS/figuras/whiskers_plot
-_chl_70-55W_55-35S.pdf  used on input line 418.
+_chl_70-55W_55-35S.pdf  used on input line 419.
 (pdftex.def)             Requested size: 326.84935pt x 117.50992pt.
  [60
 
  </home/daniu/Documents/charla_GIS/figuras/whiskers_plot_chl_70-55W_55-35S.pdf>
+] [61
+
 ]
 \tf@nav=\write6
 \openout6 = `presentacion_risaro.nav'.
@@ -1938,8 +1944,8 @@ _chl_70-55W_55-35S.pdf  used on input line 418.
 \tf@snm=\write8
 \openout8 = `presentacion_risaro.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 422.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 422.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
 
 (./presentacion_risaro.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -1947,32 +1953,33 @@ LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 422.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 422.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 430.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
 Package rerunfilecheck Info: File `presentacion_risaro.out' has not changed.
 (rerunfilecheck)             Checksum: F318A114A4D9A3E8E2017E00A10412E5;214.
  ) 
 Here is how much of TeX's memory you used:
- 24596 strings out of 492982
- 463487 string characters out of 6134895
- 565669 words of memory out of 5000000
- 27446 multiletter control sequences out of 15000+600000
- 15353 words of font info for 56 fonts, out of 8000000 for 9000
+ 24602 strings out of 492982
+ 463546 string characters out of 6134895
+ 565782 words of memory out of 5000000
+ 27449 multiletter control sequences out of 15000+600000
+ 15659 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,67p,813b,1438s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt10.pfb>
-Output written on presentacion_risaro.pdf (60 pages, 2492456 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb>
+Output written on presentacion_risaro.pdf (61 pages, 2502353 bytes).
 PDF statistics:
- 2205 PDF objects out of 2487 (max. 8388607)
- 1840 compressed objects within 19 object streams
- 125 named destinations out of 1000 (max. 500000)
+ 2237 PDF objects out of 2487 (max. 8388607)
+ 1870 compressed objects within 19 object streams
+ 127 named destinations out of 1000 (max. 500000)
  181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
