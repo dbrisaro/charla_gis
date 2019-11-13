@@ -45,13 +45,10 @@
 
 \begin{frame}
  \frametitle{El mar argentino}
- caracteristicas del mar argentino y el area de estudio
- 
- Caracterizar la variabilidad temporal y espacial de la clorofila en el mar argentino
  
 \begin{figure}
- \includegraphics[scale=0.4]{moc.png}
-\caption{Mapa del area de estudio y algo sobre cloro a}
+ \includegraphics[scale=0.85]{intro.png}
+\caption{a) Distribucion climatológica de TSM en el Atlántico Sudoccidental junto principales corrientes oceánicas. b) Clorofila superficial media durante la primavera en la plataforma patagónica.}
  \end{figure}
 \end{frame}
 
@@ -66,9 +63,6 @@
    \item<1-> Mediciones in-situ \pause $\rightarrow$ muy escasas
    \item<3-> Satelitales 
       
-
-
- 
    \begin{figure}
    	
    	\begin{tikzpicture}
@@ -183,27 +177,27 @@ y obtenemos lo siguiente:
 
 \section{Python workflow}
 
-\begin{frame}[fragile]
+\begin{frame}[t,fragile]
 \frametitle{Manipulación .nc en python}
 
-En Python hay una libreria especializada en la manipulación de archivos netCDF \texttt{xarray} llamada (más info en: \href{http://xarray.pydata.org/en/stable/}{\beamergotobutton{Link}})
+En Python hay una libreria especializada en la manipulación de archivos netCDF llamada \texttt{xarray} (más info en: \href{http://xarray.pydata.org/en/stable/}{\beamergotobutton{Link}})
 
+\pause
 \begin{lstlisting}[language=python, basicstyle=\scriptsize]
 
 import xarray as xr
 
 dire = '/home/daniu/Documentos/charla_gis/'
-filename = 'A20021822019212.L3m_MC_CHL_chlor_a_9km.nc'
+filename = 'A20022132002243.L3m_MO_CHL.x_chlor_a.nc'
 data = xr.open_dataset(dire + filename)
 
 \end{lstlisting}
 
+
 \begin{figure}
 	
 	\begin{tikzpicture}
-	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<1->[scale=0.15]{dataset-diagram.png}};
-	\draw<3->[black,thick,rounded corners] (1.3,2.2) circle (0.35cm);
-	\draw<3->[black,thick,rounded corners] (4.7,2.2) circle (0.35cm);
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<3->[scale=0.15]{dataset-diagram.png}};
 	\end{tikzpicture}
 	
 \end{figure}
@@ -220,24 +214,116 @@ dire = '/home/daniu/Documentos/charla_gis/'
 filename = 'A20022132002243.L3m_MO_CHL.x_chlor_a.nc'
 data_chl = xr.open_dataset(dire + filename)
 
-print(data)
-
-chl_a = data_chl.sel(slice(), slice())
-
+print(data_chl)
 \end{lstlisting}
 
+\begin{figure}
+	
+	\begin{tikzpicture}
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<1->[scale=0.3]{xarray-info.png}};
+	\end{tikzpicture}
+	
+\end{figure}
+
 \end{frame}
 
+\begin{frame}[t,fragile]
+\frametitle{Operaciones con xarray - Mapas}
 
-\begin{frame}[fragile]
-\frametitle{Mapas}
+\begin{lstlisting}[language=python, basicstyle=\scriptsize]
+import xarray as xr
+
+dire = '/home/daniu/Documentos/charla_gis/'
+filename = 'A20022132002243.L3m_MO_CHL.x_chlor_a.nc'
+data_chl = xr.open_dataset(dire + filename)
+
+data_chl_pp = data_chl.sel(lat=slice(-40, -55), lon=slice(-70, -46))	# select an area
+levels = np.linspace(0,3.5,15)
+data_chl_pp.chlor_a.plot(levels=levels)					# simple plot
+\end{lstlisting}
+
+\begin{figure}
+	
+	\begin{tikzpicture}
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.4]{map-chl.png}};
+	\end{tikzpicture}
+	
+\end{figure}
 
 \end{frame}
 
-\begin{frame}[fragile]
+\begin{frame}[t, fragile]
+\frametitle{Operaciones con xarray - Promedios espaciales}
+
+\begin{lstlisting}[language=python, basicstyle=\scriptsize]
+# zonal and meridional mean
+mean_chl_zonal = data_chl_pp.mean(dim=('lon'))
+mean_chl_meridional = data_chl_pp.mean(dim=('lat'))
+
+# plot of two panels
+fig, ax = plt.subplots(1, 2)
+mean_chl_zonal.chlor_a.plot(ax=ax[0])
+mean_chl_meridional.chlor_a.plot(ax=ax[1])
+\end{lstlisting}
+
+\begin{figure}
+	
+	\begin{tikzpicture}
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.4]{zonal-merid-chl.png}};
+	\end{tikzpicture}
+	
+\end{figure}
+
+
+\end{frame}
+
+\begin{frame}[t, fragile]
 \frametitle{Series temporales}
 
+\begin{lstlisting}[language=python, basicstyle=\scriptsize]
+# Load the file with the data of SWF and MODIS from 2000 to 2010
+filename = 'chl_9km_70-55W_55-40S_2000-2010.nc'    # nombre del archivo
+data_chl = xr.open_dataset(dire + filename)
+
+data_chl_gsm = data_chl.sel(latitude=slice(-40, -43), longitude=slice(-65, -60))    # select an area
+
+# zonal and meridional mean
+mean_chl_spatial = data_chl_gsm.mean(dim=('latitude', 'longitude'))
+
+# plot of a mean time serie
+mean_chl_spatial.chl.plot(aspect=3, size=2)
+\end{lstlisting}
+
+\begin{figure}
+	
+	\begin{tikzpicture}
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.6]{spatial-mean-timeseries-chl-gsm.png}};
+	\end{tikzpicture}
+	
+\end{figure}
+
 \end{frame}
+
+\begin{frame}[t, fragile]
+\frametitle{Series temporales}
+
+\begin{lstlisting}[language=python, basicstyle=\scriptsize]
+
+# plot of time series from selected gridpoints
+data_chl_gsm_points = data_chl_gsm.sel(longitude=[-64], latitude=[-42,-43], method='nearest').squeeze()
+data_chl_gsm_points.chl.plot.line(x='time', aspect=3, size=2)
+\end{lstlisting}
+
+\begin{figure}
+	
+	\begin{tikzpicture}
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics<2->[scale=0.6]{gridpoints-timeseries-chl-gsm.png}};
+	\end{tikzpicture}
+	
+\end{figure}
+
+\end{frame}
+
 
 \section{Resultados del mar Argentino}
 \begin{frame}
